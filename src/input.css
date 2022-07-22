@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .link{
+        @apply hover:text-darkGrayishBlue;
+    }
+}
+
+.btn{
+    transition: all .3s;
+}
+/* .btn:hover{} */
