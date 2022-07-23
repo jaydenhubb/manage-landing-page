@@ -25,6 +25,21 @@
           class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-veryPaleRed hover:text-brightRed btn"
           >Get Started</a
         >
+        <div class="hamburger block md:hidden" id="hamburger">
+          <img src="./src/images/icon-hamburger.svg" alt="" />
+        </div>
+        <div id="close" class="hidden">
+          <img src="./src/images/icon-close.svg" alt="">
+        </div>
+      </div>
+      <div class="md:hidden" >
+        <div class="absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md hidden" id="menu">
+          <a href="#" class="link">Pricing</a>
+          <a href="#" class="link">Product</a>
+          <a href="#" class="link">About Us</a>
+          <a href="#" class="link">Careers</a>
+          <a href="#" class="link">Community</a>
+        </div>
       </div>
     </nav>
     <section class="hero">
@@ -301,5 +316,6 @@
         </div>
       </div>
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>
